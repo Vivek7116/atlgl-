@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+nav{
+    font-family:  'Ubuntu', sans-serif;
+}
+
+nav ul li{
+    padding: 0 11px;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 55px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.logo img{
+    width:43px;
+    padding: 0 7px 0 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    min-height: 65vh;
+    background-color: black;
+    margin: 22px auto;
+    color: white;
+    width: 73vw;
+    padding: 20px;
+    border-radius: 12px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    flex-direction: column;
+}
+
+.SongItemContainer{
+    margin-top: 10px;
+}
+.bottom{
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    position: sticky;
+    bottom: 0;
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+.icons i{
+    cursor: pointer;
+    padding: 4px;
+    
+}
+#MyProgressBar{
+    width: 80vw;
+    height: 5px;
+    cursor: pointer;
+}
+
+.songItem{
+    color: black;
+    background-color: #fff;
+    height: 45px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9px ;
+    border-radius: 25px;
+}
+
+.songItem img{
+    width: 40px;
+    margin: 5px 7px;
+    border-radius: 100%;
+    
+}
+
+.timeStamp{
+    margin: 0 10px;
+}
+
+.timeStamp i {
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 1vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+
+    <nav>
+        <ul>
+            <li class="logo"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist"></div>
+        <h4>Best of Vivek Pandey</h4>
+        <div class="SongItemContainer">
+
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="1">
+                <span class="SongName">Mahabharat-Roopnagar Edition</span>
+                <span class="songListPlay"><span class="timeStamp">2:56 <i id="0"
+                            class=" SongItemPlay fa-regular fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/2.jpg" alt="1">
+                <span class="SongName">Taki Taki</span>
+                <span class="songListPlay"><span class="timeStamp">3:43 <i id="1"
+                            class=" SongItemPlay fa-regular fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/3.jpg" alt="1">
+                <span class="SongName">Memories</span>
+                <span class="songListPlay"><span class="timeStamp">3:32 <i id="2"
+                            class=" SongItemPlay fa-regular fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/4.jpg" alt="1">
+                <span class="SongName">Ophelia</span>
+                <span class="songListPlay"><span class="timeStamp">5:34 <i id="3"
+                            class=" SongItemPlay fa-regular fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/5.jpg" alt="1">
+                <span class="SongName">Levitating</span>
+                <span class="songListPlay"><span class="timeStamp">4:08 <i id="4"
+                            class=" SongItemPlay fa-regular fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/6.jpg" alt="1">
+                <span class="SongName">Paris</span>
+                <span class="songListPlay"><span class="timeStamp">4:29 <i id="5"
+                            class=" SongItemPlay fa-regular fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/7.jpg" alt="1">
+                <span class="SongName">Love Story</span>
+                <span class="songListPlay"><span class="timeStamp">3:55 <i id="6"
+                            class=" SongItemPlay fa-regular fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/8.jpg" alt="1">
+                <span class="SongName">Vacation</span>
+                <span class="songListPlay"><span class="timeStamp">6:23 <i id="7"
+                            class=" SongItemPlay fa-regular fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/9.jpg" alt="1">
+                <span class="SongName">Cold Water</span>
+                <span class="songListPlay"><span class="timeStamp">2:47 <i id="8"
+                            class=" SongItemPlay fa-regular fa-circle-play"></i></span></i></span>
+            </div>
+            <div class="songItem">
+                <img src="covers/10.jpg" alt="1">
+                <span class="SongName">Never Say Never</span>
+                <span class="songListPlay"><span class="timeStamp">5:32 <i id="9"
+                            class=" SongItemPlay fa-regular fa-circle-play"></i></span></i></span>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" min="0" max="100" value="0" name="progress" id="MyProgressBar">
+        <div class="icons">
+            <i id="Previous" class="fa-solid fa-2x fa-backward-step" id="BackwardAudio"></i>
+            <i id="startAudio" class="fa-regular fa-2x fa-circle-play"></i>
+            <i id="Next" class="fa-solid fa-2x fa-forward-step" id="ForwardAudio"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" id="gif" width="50px" alt=""> <span id="MasterSongName">Unstoppable</span>
+        </div>
+    </div>
+
+</head>
+
+<body>
+    <script src="https://kit.fontawesome.com/6b8b04c52c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
